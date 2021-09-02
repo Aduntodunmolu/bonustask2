@@ -1,0 +1,61 @@
+body{
+  background: #F9FCFC;
+  font-size: 15px;
+  font-family:sans-serif;
+
+}
+.body_of_page{
+  display: flex;
+  margin:0 20px 0 20px;
+}
+.left_side{
+  width: 30%;
+}
+.right_side{
+  width: 80%;
+  margin-left: 15%;
+
+}
+#whoarewe{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -15px;
+  border-bottom: 2px solid #D89616;
+  display: inline-block;
+  padding-bottom: 5px;
+
+}
+.contact_us{
+  border:1px solid white;
+  background-color:white;
+  margin: 10px 150px 0 150px;
+  padding-left: 50px;
+  box-shadow: 0 0 5px gray;
+  border-radius: 5px;
+
+/* text-align: left; */
+}
+
+.submit_button{
+  /* padding-left: 465px; */
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  margin-right: 9.5%;
+}
+.submit_button button{
+  height:20px;
+  width:120px;
+  border:none;
+  border-radius: 3px;
+  background: #004DE6C2;
+  color:white;
+
+}
+textarea{
+  width:90%;
+  resize:none;
+}
+input[type=text]{
+  margin-bottom: 15px;
+}
